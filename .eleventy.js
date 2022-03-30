@@ -5,7 +5,7 @@ function log(message, isError) {
   const logLabel = "11ty-plugin-html-validator: ";
 
   if (isError) {
-    console.error(message);
+    console.error(logLabel + message);
   } else {
     console.log(logLabel + message);
   }
