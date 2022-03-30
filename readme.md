@@ -13,4 +13,6 @@ module.exports = function (eleventyConfig) {
 }
 ```
 
+Warning: I have no idea which versions of Eleventy this works on, when I figure it out I'll make a note here.
+
 Powered by [html-validator](https://www.npmjs.com/package/html-validator).
