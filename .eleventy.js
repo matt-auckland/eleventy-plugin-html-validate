@@ -17,7 +17,6 @@ async function validateHTMLFiles(buildOutput) {
 
   let everythingPassed = true;
 
-  // load files ahead of time
   htmlFilePaths.forEach(async (filePath, i) => {
     if (fs.existsSync(filePath)) {
       try {
