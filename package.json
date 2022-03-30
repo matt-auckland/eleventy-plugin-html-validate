@@ -1,0 +1,14 @@
+{
+  "name": "eleventy-plugin-html-validate",
+  "version": "0.0.1",
+  "description": "A plugin for 11ty which validates your site's HTML after build.",
+  "main": "index.js",
+  "keywords": [
+    "11ty",
+    "eleventy",
+    "html-validator",
+    "html"
+  ],
+  "author": "Mathew Paul",
+  "license": "MIT"
+}
