@@ -6,10 +6,10 @@ Use:
 
 ```js
 // In your .eleventy.js
-const 11tyHTMLValidate = require('eleventy-plugin-html-validate');
+const eleventyHTMLValidate = require('eleventy-plugin-html-validate');
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.on('eleventy.after', 11tyHTMLValidate);
+  eleventyConfig.addPlugin(eleventyHTMLValidate);
 }
 ```
 
