@@ -34,11 +34,11 @@ async function validateHTMLFiles(buildOutput) {
           log(result);
         }
       } catch (error) {
-        console.error(error, true);
+        log(error, true);
       }
     }
     if (htmlFilePaths.length - 1 === i && everythingPassed) {
-      console.log('All your HTML passed validation! 🎉');
+      log('All your HTML passed validation! 🎉');
     }
   });
 }
